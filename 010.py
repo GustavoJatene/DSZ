@@ -1,0 +1,21 @@
+print("lista de idades: 21,24,27,34 e 48 anos")
+lista = [21,24,27,34,48]
+print("Segundo elemento da lista: {}".format(lista[1]))
+print("Contando elementos: {}".format(len(lista)))
+lista[1] = 25
+print("Alterando o segundo elemento para: {}".format(lista[1]))
+print("Imprimindo os valores do segundo elemento em diante: {}".format(lista[1:]))
+lista.remove(25)
+print("Removendo um elemento: {}".format(lista))
+print("\n")
+print("Salários: 900,1200,1500,800,12587,10000 reais")
+salario = [900,1200,1500,800,12587,10000]
+print("Verificando se tem o elemento R$10000: {}".format(10000 in salario))
+print("Menor valor R${}, maior valor R${}".format(min(salario),max(salario)))
+salario.append(7000)
+print("Adicionando um novo valor: {}".format(salario))
+salario.extend([1253,1547])
+print("Salários: {}".format(salario))
+print("Indice do valor 800: {}".format(salario.index(800)))
+print("Lista ordenada: {}".format(sorted(salario)))
+print("Lista ordenada reversa: {}".format(sorted(salario,reverse=True)))
