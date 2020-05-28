@@ -1,0 +1,5 @@
+n = int(input("Digite um valor inteiro: "))
+print("O tipo da variável é: {}".format(type(n)))
+n = float(n)
+print("Valor digitado: {}".format(n))
+print("O tipo agora é: {}".format(type(n)))
