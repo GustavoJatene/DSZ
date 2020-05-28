@@ -1,0 +1,6 @@
+nome = str(input("Digite seu primeiro nome: "))
+print("Tipo: {}".format(type(nome)))
+snome = str(input("Agora digite o sobrenome: "))
+cname = (nome) + (" ") + (snome)
+mail, age = str(input("Digite seu e-mail: ")), int(input("Agora sua idade: "))
+print("Seu nome completo é {}, você tem {} anos, e seu e-mail é {}.".format(cname,age,mail))
