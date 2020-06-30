@@ -1,0 +1,1 @@
+Como não tem missing values, não tem como preencher os valores, caso ouvesse, iriamos usar o método .fillna().
