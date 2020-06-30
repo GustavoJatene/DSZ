@@ -1,1 +1,2 @@
-Como não tem missing values, não tem como preencher os valores, caso ouvesse, iriamos usar o método .fillna().
+Como não tem missing values, não tem como preencher os valores, caso ouvesse, iriamos usar o método .fillna() e passar os valores que iriam preencher as lacunas.
+Também não tem como remover as linhas que não possuem missing values, caso ouvesse, iriamos usar o método dropna().
